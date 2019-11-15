@@ -68,7 +68,7 @@ def evaluate(expression: str):
 
 
 print('Computational logic RPN converter by Adrian Madajewski I6.2')
-print('Enter expressions or "exit" to exit: ')
+print('Enter expressions or "exit" to exit:')
 isRunning = True
 
 try:
