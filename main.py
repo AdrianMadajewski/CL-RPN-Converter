@@ -11,7 +11,7 @@ from sys import stdin
 
 print('Computational logic RPN converter by Adrian Madajewski I6.2')
 print('Enter expressions or "exit" to exit: ')
-isRunning = True
+isRunning: bool = True
 
 if __name__ == '__main__':
     try:
