@@ -70,7 +70,7 @@ def make_expression(operator: str, stack: list) -> str:
     return '({} {} {})'.format(operand2, operator, operand1)
 
 
-def transform(expression: str) -> str:
+def transform_rpn(expression: str) -> str:
     """
     Transforms given expression of predicate calculus in RPN to infix notation
 

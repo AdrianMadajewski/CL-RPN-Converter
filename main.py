@@ -6,10 +6,10 @@ This scripts transforms given expression of predicate calculus in RPN to it's in
 :version 1.0.1
 """
 
-from functions import transform
+from functions import transform_rpn
 from sys import stdin
 
-print('Computational logic RPN converter by Adrian Madajewski I6.2')
+print('Predicate calculus RPN converter by Adrian Madajewski I6.1')
 print('Enter expressions or "exit" to exit: ')
 isRunning: bool = True
 
@@ -20,7 +20,7 @@ if __name__ == '__main__':
             if user_expression == 'exit':
                 isRunning = False
             else:
-                print(transform(user_expression))
+                print(transform_rpn(user_expression))
         else:
             print('Quitting...')
     except EOFError:
